@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Rennes - Application de stationnement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🚗 Parking Rennes</h1>
+            <p class="subtitle">Application mobile de gestion du stationnement à Rennes</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="presentation">
+            <h2>Présentation</h2>
+            <p>Parking Rennes est une application mobile iOS qui vous aide à trouver et gérer votre stationnement dans la ville de Rennes et ses environs. L'application propose trois types de stationnement :</p>
+            <div class="features">
+                <div class="feature">
+                    <h3>🕐 Temps réel</h3>
+                    <p>Consultez la disponibilité en temps réel des parkings publics avec nombre de places libres</p>
+                </div>
+                <div class="feature">
+                    <h3>🏢 Statique</h3>
+                    <p>Découvrez tous les parkings de la métropole rennaise avec leurs informations détaillées</p>
+                </div>
+                <div class="feature">
+                    <h3>🚲 Vélos</h3>
+                    <p>Trouvez les parkings à vélos sécurisés pour vos déplacements écologiques</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="fonctionnalites">
+            <h2>Fonctionnalités principales</h2>
+            <ul>
+                <li>Géolocalisation pour trouver les parkings les plus proches</li>
+                <li>Minuteur de stationnement avec calcul du coût en temps réel</li>
+                <li>Carte interactive avec tous les parkings</li>
+                <li>Filtres de recherche avancés</li>
+                <li>Système de favoris</li>
+                <li>Historique des stationnements</li>
+                <li>Intégration avec l'app Plans d'Apple</li>
+                <li>Support pour Apple Wallet</li>
+            </ul>
+        </section>
+
+        <section id="exigences">
+            <h2>Exigences techniques</h2>
+            <div class="requirements">
+                <h3>Configuration minimale requise</h3>
+                <ul>
+                    <li><strong>Système d'exploitation :</strong> iOS 14.0 ou version ultérieure</li>
+                    <li><strong>Appareil :</strong> iPhone compatible iOS 14+</li>
+                    <li><strong>Stockage :</strong> 50 MB d'espace libre minimum</li>
+                    <li><strong>Connexion :</strong> Connexion Internet requise pour les données en temps réel</li>
+                    <li><strong>Localisation :</strong> Autorisation de géolocalisation recommandée</li>
+                </ul>
+
+                <h3>Permissions nécessaires</h3>
+                <ul>
+                    <li><strong>Localisation :</strong> Pour trouver les parkings à proximité</li>
+                    <li><strong>Appareil photo :</strong> Pour prendre des photos de votre véhicule garé</li>
+                    <li><strong>Notifications :</strong> Pour les rappels de fin de stationnement</li>
+                </ul>
+
+                <h3>Technologies utilisées</h3>
+                <ul>
+                    <li>SwiftUI pour l'interface utilisateur</li>
+                    <li>MapKit pour l'intégration des cartes</li>
+                    <li>Core Location pour la géolocalisation</li>
+                    <li>PassKit pour l'intégration Wallet</li>
+                    <li>APIs REST pour les données de stationnement</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="donnees">
+            <h2>Sources de données</h2>
+            <p>L'application utilise les données publiques de :</p>
+            <ul>
+                <li>Rennes Métropole - Données temps réel des parkings</li>
+                <li>Open Data Rennes - Inventaire des parkings statiques</li>
+                <li>Données publiques des parkings à vélos de la métropole</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <a href="#presentation">Présentation</a>
+                <a href="#fonctionnalites">Fonctionnalités</a>
+                <a href="#exigences">Exigences</a>
+                <a href="mentions-legales.html">Mentions légales</a>
+            </nav>
+            <p>&copy; 2024 Parking Rennes. Toutes données sous licence Open Data.</p>
+        </div>
+    </footer>
+</body>
+</html>
